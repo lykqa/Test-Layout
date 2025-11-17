@@ -1,34 +1,48 @@
-<item>
-    <title>🔥 COMPLETE Character Encoding Stress Test Item 🔥</title>
-    <link>http://www.example.com/item/4</link>
-    <description>
-        <![CDATA[
-        <p>This is a CDATA block, testing unencoded HTML and reserved characters:</p>
-        <ol>
-            <li>Unencoded HTML: <b>Bold text</b> and <i>italic text</i>.</li>
-            <li>Unencoded XML Reserved: The expression "A & B < C > D" and a direct quote "He said 'Hello'".</li>
-        </ol>
-        ]]>
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Character Encoding Test Feed – ᚠᛖᛖᛞ</title>
+    <link>http://www.example.com/testfeed</link>
+    <description>A stress test feed for checking proper rendering of all major RSS text elements, encoding, and entities (without images).</description>
+    <language>en-us</language>
+    
+    <item>
+        <title>🔥 COMPLETE Character & Encoding Stress Test Item 🔥</title>
+        <link>http://www.example.com/item/4</link>
         
-        <p>Testing Standard XML and HTML Entities:</p>
-        <ul>
-            <li>XML: &amp; (Ampersand), &lt; (Less-than), &gt; (Greater-than), &quot; (Quote), &apos; (Apostrophe).</li>
-            <li>HTML: &copy; (Copyright), &reg; (Registered), &trade; (Trademark), &euro; (Euro), &pound; (Pound), &yen; (Yen).</li>
-            <li>Mathematical: &radic; (Square Root), &sum; (Summation), &int; (Integral), &infin; (Infinity).</li>
-            <li>Punctuation/Typography: &ndash; (En Dash), &mdash; (Em Dash), &hellip; (Ellipsis).</li>
-        </ul>
-        
-        <p>Testing Global Unicode Characters (UTF-8):</p>
-        <ul>
-            <li>**French (Accents):** Ça va bien ? Être, île, garçon.</li>
-            <li>**German (Umlauts):** Schön, Füße, Straße.</li>
-            <li>**Nordic/Other Latin:** Ø, Å, Æ, Ð, Þ.</li>
-            <li>**Greek:** $\alpha, \beta, \gamma$ (Alpha, Beta, Gamma).</li>
-            <li>**Cyrillic (Russian/Ukrainian):** Здра́вствуйте (Zdravstvuyte).</li>
-            <li>**Asian Scripts (Japanese/Korean):** 寿司, 김치, 漢字.</li>
-            <li>**Arabic/Hebrew:** مرحباً, שלום.</li>
-            <li>**Symbols/Runes:** ⚡️, 💯, 𝄞, ᛟ, ⌘, .</li>
-        </ul>
-    </description>
-    <pubDate>Mon, 17 Nov 2025 15:00:00 PST</pubDate>
-</item>
+        <description>
+            <![CDATA[
+            <p>This is a CDATA block, testing unencoded HTML and reserved characters:</p>
+            <ol>
+                <li>Unencoded HTML: <b>Bold text</b> and <i>italic text</i>.</li>
+                <li>Unencoded XML Reserved: The expression "A & B < C > D" and a direct quote "He said 'Hello'".</li>
+            </ol>
+            ]]>
+            
+            <p>Testing Standard XML and Numeric HTML Entities (The XML-Safe Fix!):</p>
+            <ul>
+                <li>XML: &amp; (Ampersand), &lt; (Less-than), &gt; (Greater-than), &quot; (Quote), &apos; (Apostrophe).</li>
+                
+                <li>HTML: &#169; (Copyright), &#174; (Registered), &#8482; (Trademark), &#8364; (Euro), &#163; (Pound), &#165; (Yen).</li>
+                
+                <li>Mathematical: &radic; (Square Root), &sum; (Summation), &int; (Integral), &infin; (Infinity).</li>
+                <li>Punctuation/Typography: &ndash; (En Dash), &mdash; (Em Dash), &hellip; (Ellipsis).</li>
+            </ul>
+            
+            <p>Testing Global Unicode Characters (UTF-8):</p>
+            <ul>
+                <li>**French (Accents):** Ça va bien ? Être, île, garçon.</li>
+                <li>**German (Umlauts):** Schön, Füße, Straße.</li>
+                <li>**Nordic/Other Latin:** Ø, Å, Æ, Ð, Þ.</li>
+                <li>**Greek:** $\alpha, \beta, \gamma$ (Alpha, Beta, Gamma).</li>
+                <li>**Cyrillic (Russian/Ukrainian):** Здра́вствуйте (Zdravstvuyte).</li>
+                <li>**Asian Scripts (Japanese/Korean):** 寿司, 김치, 漢字.</li>
+                <li>**Arabic/Hebrew:** مرحباً, שלום.</li>
+                <li>**Emoji/Symbols:** ⚡️, 💯, 𝄞, ᛟ, ⌘, , 🎉 (Party Popper).</li>
+            </ul>
+        </description>
+        <pubDate>Mon, 17 Nov 2025 15:00:00 PST</pubDate>
+    </item>
+    
+  </channel>
+</rss>
