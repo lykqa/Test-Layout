@@ -1,1 +1,5 @@
-<p>Testing Standard XML and Numeric HTML Entities (The XML-Safe Fix!):</p>
+<h1>Pound Symbol Examples</h1>
+<p>Direct symbol: £</p>
+<p>Using HTML entity (named): &pound;</p>
+<p>Using HTML entity (numeric): &#163;</p>
+<p>Price example: £29.99</p>
