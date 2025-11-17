@@ -1,3 +1,8 @@
-<h1>Pound Symbol Examples</h1>
-<p>Using HTML entity (numeric): &#163;</p>
-<p>Price example: &#163;29.99</p>
+<?xml version="1.0" encoding="UTF-8"?>
+<product>
+    <name>Luxury Widget</name>
+    <price currency="GBP">£29.99</price>
+    <description>
+        Price using HTML Entity: &#163;29.99
+    </description>
+</product>
