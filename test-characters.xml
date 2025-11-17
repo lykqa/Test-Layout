@@ -26,7 +26,8 @@
                 <li>HTML: &#169; (Copyright), &#174; (Registered), &#8482; (Trademark), &#8364; (Euro), &#163; (Pound), &#165; (Yen).</li>
                 
                 <li>Mathematical: &radic; (Square Root), &sum; (Summation), &int; (Integral), &infin; (Infinity).</li>
-                <li>Punctuation/Typography: &ndash; (En Dash), &mdash; (Em Dash), &hellip; (Ellipsis).</li>
+                
+                <li>Punctuation/Typography: &#8211; (En Dash), &#8212; (Em Dash), &#8230; (Ellipsis).</li>
             </ul>
             
             <p>Testing Global Unicode Characters (UTF-8):</p>
