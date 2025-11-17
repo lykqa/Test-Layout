@@ -1,5 +1,5 @@
 <p>Testing Standard XML and Numeric HTML Entities (The XML-Safe Fix!):</p>
 <ul>
             <li>XML: &amp; (Ampersand), &lt; (Less-than), &gt; (Greater-than), &quot; (Quote), &apos; (Apostrophe).</li>
-            <li>HTML: &#169; (Copyright), &#174; (Registered), &#8482; (Trademark), &#8364; (Euro), **&#163; (Pound)**, &#165; (Yen).</li> 
+            <li>HTML: &#169; (Copyright), &#174; (Registered), &#8482; (Trademark), &#8364; (Euro), &#163; (Pound), &#165; (Yen).</li>
 </ul>
