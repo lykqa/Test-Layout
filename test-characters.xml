@@ -1,25 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
     <channel>
-        <title>RSS Feed (Official)</title>
-        <link>https://lykqa.github.io/Test-Layout/</link> <description>A test RSS feed.</description>
+        <title>RSS Feed</title>
+        <link>https://lykqa.github.io/Test-Layout/</link> <description>Test Layout for Xibo RSS Feed</description>
         <language>en-us</language>
 
         <item>
-            <title>RSS Feed (Official)</title>
+            <title>RSS Feed</title>
             <link>https://lykqa.github.io/Test-Layout/test-characters.xml</link> <guid isPermaLink="true">https://lykqa.github.io/Test-Layout/test-characters.xml</guid>
             
             <description>
                 <![CDATA[
                 <p>The best view comes after the hardest climb. ⛰️ Keep pushing! 💪</p>
-                 <link>https://lykqa.github.io/Test-Layout/test-characters.xml</link> <guid isPermaLink="true">https://lykqa.github.io/Test-Layout/test-characters.xml</guid>
-                ]]>
-            </description>
-
-            <description>
-                <![CDATA[
                 <p>May your choices reflect your hopes, not your fears. ⚖️</p>
-                <link>https://lykqa.github.io/Test-Layout/test-characters.xml</link> <guid isPermaLink="true">https://lykqa.github.io/Test-Layout/test-characters.xml</guid>
                 ]]>
             </description>
             
