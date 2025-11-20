@@ -1,18 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
     <channel>
-        <title>Product Feed Test</title>
-        <link>https://lykqa.github.io/Test-Layout/</link> <description>A test feed for product data and characters.</description>
+        <title>RSS Feed (Official)</title>
+        <link>https://lykqa.github.io/Test-Layout/</link> <description>A test RSS feed.</description>
         <language>en-us</language>
 
         <item>
-            <title>Luxury Widget (£29.99)</title>
+            <title>RSS Feed (Official)</title>
             <link>https://lykqa.github.io/Test-Layout/test-characters.xml</link> <guid isPermaLink="true">https://lykqa.github.io/Test-Layout/test-characters.xml</guid>
             
             <description>
                 <![CDATA[
-                <p>The price of the Luxury Widget is £29.99.</p>
-                <p>The numeric entity &#163;29.99 also works.</p>
+                <p>The best view comes after the hardest climb. ⛰️ Keep pushing! 💪</p>
+                ]]>
+            </description>
+
+            <description>
+                <![CDATA[
+                <p>May your choices reflect your hopes, not your fears. ⚖️</p>
                 ]]>
             </description>
             
